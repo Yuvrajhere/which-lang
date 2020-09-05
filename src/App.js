@@ -24,13 +24,13 @@ function App() {
       <Router>
         <div className="App">
           <Switch>
-            <Route exact path="/whichlang/">
+            <Route exact path="/which-lang/">
               <Home />
             </Route>
-            <Route path="/whichlang/start">
+            <Route exact path="/which-lang/start">
               <Start />
             </Route>
-            <Route path="/whichlang/about">
+            <Route exact path="/which-lang/about">
               <About />
             </Route>
           </Switch>

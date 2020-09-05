@@ -1,6 +1,6 @@
 import React from "react";
 
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import errorSvg from "../../assets/error-svg.svg";
 
@@ -11,12 +11,12 @@ const Error = props => {
       <img src={errorSvg} alt="error" />
       <div className="error-links">
         <button className="btn">
-          <Link to="https://yuvrajhere.github.io/whichlang/start">
+          <Link to="/which-lang/start">
             Start
           </Link>
         </button>
         <p className="link">
-            <Link to="https://yuvrajhere.github.io/whichlang/about">know more
+            <Link to="/which-lang/about">know more
           </Link>
         </p>
       </div>

@@ -1,0 +1,42 @@
+.Navbar {
+  max-height: 20%;
+  width: 100%;
+  border-bottom: 1px solid var(--color-4);
+
+  padding: 0.8% 14%;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  min-width: 38%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  padding-left: 10%;
+  white-space: nowrap;
+}
+
+li a {
+  font-size: 2.5rem;
+  color: var(--color-4);
+}
+
+.active {
+  color: var(--color-3);
+}
+
+@media only screen and (max-width: 600px) {
+  .Navbar {
+    max-height: 30%;
+    justify-content: center;
+  }
+  
+  ul {
+    flex-direction: column;
+  }
+}

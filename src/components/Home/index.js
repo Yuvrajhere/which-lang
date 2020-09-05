@@ -20,13 +20,13 @@ const Home = props => {
           </p>
 
           <button className="btn">
-            <Link to="https://yuvrajhere.github.io/whichlang/start">
+            <Link to="/whichlang/start">
               Start
             </Link>
           </button>
 
           <p className="link">
-            <Link to="https://yuvrajhere.github.io/whichlang/about">know more
+            <Link to="/whichlang/about">know more
           </Link>
           </p>
         </div>

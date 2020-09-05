@@ -11,7 +11,7 @@ const Navbar = props => {
         <li>
           <NavLink 
             exact
-            to="https://yuvrajhere.github.io/whichlang/" 
+            to="/whichlang/" 
             activeClassName="active">
               Home
           </NavLink>
@@ -19,7 +19,7 @@ const Navbar = props => {
         <li>
           <NavLink 
             exact
-            to="https://yuvrajhere.github.io/whichlang/start" 
+            to="/whichlang/start" 
             activeClassName="active">
               Start
           </NavLink>
@@ -27,7 +27,7 @@ const Navbar = props => {
         <li>
           <NavLink 
             exact
-            to="https://yuvrajhere.github.io/whichlang/about" 
+            to="/whichlang/about" 
             activeClassName="active">
               Know more
           </NavLink>

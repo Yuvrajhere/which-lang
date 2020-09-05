@@ -24,13 +24,13 @@ function App() {
       <Router>
         <div className="App">
           <Switch>
-            <Route exact path="https://yuvrajhere.github.io/whichlang/">
+            <Route exact path="/whichlang/">
               <Home />
             </Route>
-            <Route path="https://yuvrajhere.github.io/whichlang/start">
+            <Route path="/whichlang/start">
               <Start />
             </Route>
-            <Route path="https://yuvrajhere.github.io/whichlang/about">
+            <Route path="/whichlang/about">
               <About />
             </Route>
           </Switch>
